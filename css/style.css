@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_box {
+  max-width: 100vw;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  overflow: hidden;
+  background-image: url(../img/city-background-variants-v0-dtqv566hx5zb1.webp);
+}
+
+.palyer_box {
+  width: 400px;
+  height: 360px;
+  overflow: hidden;
+}
+
+.movie_pleyer {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+  transform: rotate(-10deg);
+}
+
+.palyer_box img {
+  width: 500px;
+  height: 500px;
+}
+.player_none {
+  display: none;
+}
+
+.bot_player_box {
+  width: 400px;
+  height: 260px;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+.movie_bot {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+  transform: rotate(10deg);
+}
+
+.botimg {
+  width: 400px;
+  height: 300px;
+}
+.botimg_none {
+  display: none;
+}
+
+button {
+  width: 180px;
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
